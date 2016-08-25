@@ -1,15 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-div.contanier{	
+.container{	
 	background-color: #fff;	
+	box-shadow: 0px 0px 4px 0px rgba(219,219,219,1);
 	margin: 0 auto;
 	padding: 0 46px;
-	width: 968px;
-
-	-webkit-box-shadow: 0px 0px 4px 0px rgba(219,219,219,1);
-    -moz-box-shadow: 0px 0px 4px 0px rgba(219,219,219,1);
-    box-shadow: 0px 0px 4px 0px rgba(219,219,219,1);
+	width: 968px; 
+	font-family:"Open Sans";
 }
 
 /* HEADER */
@@ -18,23 +16,18 @@ header{
 	padding-top: 50px;	
 }
 
-nav{	
-    background: #1e5799; /* Old browsers */
-    background: -moz-linear-gradient(top,  #1e5799 0%, #5e5e5e 0%, #5e5e5e 0%, #444343 97%, #444343 100%, #207cca 100%, #2989d8 100%, #2989d8 100%, #444343 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #1e5799 0%,#5e5e5e 0%,#5e5e5e 0%,#444343 97%,#444343 100%,#207cca 100%,#2989d8 100%,#2989d8 100%,#444343 100%); /* Chrome10-25,Safari5.1-6 */
+header nav{	
     background: linear-gradient(to bottom,  #1e5799 0%,#5e5e5e 0%,#5e5e5e 0%,#444343 97%,#444343 100%,#207cca 100%,#2989d8 100%,#2989d8 100%,#444343 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#444343',GradientType=0 ); /* IE6-9 */
-
     margin: 40px 0;
     overflow: hidden;
 	position: relative;
 }
 
-nav li{
+header nav li{
 	float:left;	
 }
 
-nav a{
+header nav a{
 	border-left: 1px solid transparent;
 	border-right: 1px solid transparent;
 	color: #fff;
@@ -46,13 +39,8 @@ nav a{
 	text-decoration: none;
 }
 
-nav a:hover{
-    background: #1e5799; /* Old browsers */
-    background: -moz-linear-gradient(top,  #1e5799 0%, #5e5e5e 0%, #4a4a4a 0%, #2e2e2e 99%, #444343 99%, #444343 100%, #207cca 100%, #2989d8 100%, #2989d8 100%, #444343 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #1e5799 0%,#5e5e5e 0%,#4a4a4a 0%,#2e2e2e 99%,#444343 99%,#444343 100%,#207cca 100%,#2989d8 100%,#2989d8 100%,#444343 100%); /* Chrome10-25,Safari5.1-6 */
+header nav a:hover{
     background: linear-gradient(to bottom,  #1e5799 0%,#5e5e5e 0%,#4a4a4a 0%,#2e2e2e 99%,#444343 99%,#444343 100%,#207cca 100%,#2989d8 100%,#2989d8 100%,#444343 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#444343',GradientType=0 ); /* IE6-9 */
-
 	border-left: 1px solid #838383;
 	border-right: 1px solid #838383;
 }
@@ -70,18 +58,18 @@ nav a:hover{
 	text-align: center;
 }
 
-aside{
+.content nav{
 	width: 238px;
 	float: left;
 	border-top: 1px solid #c8c8c8;
 }
 
-aside ul li{
+.content nav ul li{
 	border: 1px solid #c8c8c8;
 	border-top: none;
 }
 
-aside a{
+.content nav a{
 	color: #7a7878;
 	display: block;
 	line-height: 39px;
@@ -89,13 +77,13 @@ aside a{
 	text-decoration: none;
 }
 
-aside a:hover{
+.content nav a:hover{
 	background-color: #f9f9f9;
 	color: #474747;
 	padding-left: 35px;
 }
 
-article{
+ article{
 	float: right;
 	width: 676px;
 }
