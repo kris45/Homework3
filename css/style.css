@@ -31,12 +31,10 @@ header nav a{
 	border-left: 1px solid transparent;
 	border-right: 1px solid transparent;
 	color: #fff;
-	display: block;
-	font-family:"Open Sans";
-	font-size: 14.67px;	
-	line-height: 40px;
+    line-height: 40px;
 	padding: 0 40px;
-	text-decoration: none;
+	display: inline-block;
+	font-size: 14.67px;		
 }
 
 header nav a:hover{
