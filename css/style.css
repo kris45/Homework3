@@ -7,7 +7,6 @@
 	margin: 0 auto;
 	padding: 0 46px;
 	width: 968px; 
-	font-family:"Open Sans";
 }
 
 /* HEADER */
@@ -45,9 +44,10 @@ header nav a:hover{
 
 /* CONTENT */
 
-.content{
-	overflow: hidden;
-	position: relative;
+.clearfix:after{
+	content: "";
+	clear:both;
+	display: block;
 }
 
 .product{
@@ -100,10 +100,12 @@ footer{
 }
 
 footer ul{
+	display: inline-block;
 	background: #e1e1e1;
 	font-size: 13.33px;
 	overflow: hidden;
 	position: relative;	
+	width: 731px;
 }
 
 footer ul li{
@@ -113,9 +115,8 @@ footer ul li{
 
 footer a{
 	color: #2c2c2c;
-	display: block;	
+	display: inline-block;	
 	padding: 0 50px;
-	text-decoration: none;	
 }
 
 footer a:hover{
@@ -126,6 +127,9 @@ footer a:hover{
 	float: right;
 	padding-right: 26px;
 	line-height: 40px;
+	background: #e1e1e1;
+	font-size: 13.33px;
+
 }
 
 
