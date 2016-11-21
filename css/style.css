@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-.container{	
+.wrapper {	
 	background-color: #fff;	
 	box-shadow: 0px 0px 4px 0px rgba(219,219,219,1);
 	margin: 0 auto;
@@ -11,22 +11,22 @@
 
 /* HEADER */
 
-header{
+header {
 	padding-top: 50px;	
 }
 
-header nav{	
+header nav {	
     background: linear-gradient(to bottom,  #1e5799 0%,#5e5e5e 0%,#5e5e5e 0%,#444343 97%,#444343 100%,#207cca 100%,#2989d8 100%,#2989d8 100%,#444343 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     margin: 40px 0;
     overflow: hidden;
 	position: relative;
 }
 
-header nav li{
+header li {
 	float:left;	
 }
 
-header nav a{
+header a {
 	border-left: 1px solid transparent;
 	border-right: 1px solid transparent;
 	color: #fff;
@@ -36,7 +36,7 @@ header nav a{
 	font-size: 14.67px;		
 }
 
-header nav a:hover{
+header a:hover {
     background: linear-gradient(to bottom,  #1e5799 0%,#5e5e5e 0%,#4a4a4a 0%,#2e2e2e 99%,#444343 99%,#444343 100%,#207cca 100%,#2989d8 100%,#2989d8 100%,#444343 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	border-left: 1px solid #838383;
 	border-right: 1px solid #838383;
@@ -44,30 +44,30 @@ header nav a:hover{
 
 /* CONTENT */
 
-.clearfix:after{
+.clearfix:after {
 	content: "";
 	clear:both;
 	display: block;
 }
 
-.product{
+.product {
 	border: 1px solid #c8c8c8;
 	padding: 50px 0;
 	text-align: center;
 }
 
-.content nav{
+.content nav {
 	width: 238px;
 	float: left;
 	border-top: 1px solid #c8c8c8;
 }
 
-.content nav ul li{
+.content li {
 	border: 1px solid #c8c8c8;
 	border-top: none;
 }
 
-.content nav a{
+.content a {
 	color: #7a7878;
 	display: block;
 	line-height: 39px;
@@ -75,18 +75,18 @@ header nav a:hover{
 	text-decoration: none;
 }
 
-.content nav a:hover{
+.content a:hover {
 	background-color: #f9f9f9;
 	color: #474747;
 	padding-left: 35px;
 }
 
- article{
+ article {
 	float: right;
 	width: 676px;
 }
 
-article p{
+article p {
 	color: #2c2c2c;
 	font-size: 13.33px;
 	line-height: 21px;
@@ -95,11 +95,11 @@ article p{
 
 /* FOOTER */
 
-footer{
+footer {
 	padding: 40px 0;
 }
 
-footer ul{
+footer ul {
 	display: inline-block;
 	background: #e1e1e1;
 	font-size: 13.33px;
@@ -108,22 +108,22 @@ footer ul{
 	width: 731px;
 }
 
-footer ul li{
+footer li {
 	float: left;
 	line-height: 40px;
 }
 
-footer a{
+footer a {
 	color: #2c2c2c;
 	display: inline-block;	
 	padding: 0 50px;
 }
 
-footer a:hover{
+footer a:hover {
 	text-decoration: underline;
 }
 
-.copyright{
+.copyright {
 	float: right;
 	padding-right: 26px;
 	line-height: 40px;
